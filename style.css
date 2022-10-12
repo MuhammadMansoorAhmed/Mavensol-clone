@@ -1,0 +1,75 @@
+body{
+    max-width: 100%;
+}
+.numbutton {
+  border-radius: 50px;
+}
+
+.caro-img{
+  height: 600px;
+}
+.lang-img {
+  width: 100px;
+  height: 100px;
+  padding: 10px;
+  display: inline-block;
+  
+}
+.aboutus {
+  font-weight: bold;
+  font-size: 4rem;
+}
+.horizontal {
+  width: 30%;
+  color: aquamarine;
+  border: 1px solid;
+}
+.logo-section{
+  height: 150px;
+  overflow: none;
+}
+.body-img {
+  justify-content: center;
+  
+  width: 100%;
+  overflow: none;
+  border-radius: 10px;
+}
+.work-img {
+  border-radius: 20px;
+  width: 99%;
+}
+body {
+  background-color: #e9e9ec;
+}
+.detail {
+  border-radius: 20px;
+}
+.Contect-section {
+  text-align: center;
+  justify-content: center;
+  height: 500px;
+  background-image: linear-gradient(
+    to top right,
+    #f7b500,
+    #1681f5,
+    #0366d0,
+    #0e3c6e,
+    #15375c
+  );
+}
+.Contect-section button {
+  border-radius: 20px;
+}
+@media screen and (max-width: 420px) {
+  .logo-section{
+    height: 600px;
+    overflow: none;
+  }
+  .caro-img{
+    height: auto;
+  }
+  /* .lang-img {
+    margin: 10px;
+  } */
+}
